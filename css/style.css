@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.container {
+    height: 300px;
+    width: 300px;
+    border: 1px solid rgb(7, 6, 24);
+    border-radius: 5px;
+    margin: 10rem auto;
+    text-align: center;
+    background: linear-gradient(rgba(76, 76, 124, 0.541), rgba(179, 68, 68, 0.432) ),
+    url("../images/1.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.container > input, .container button {
+    display: block;
+    margin: 1rem auto;
+}
+
+.container button {
+    width: 5rem;
+    padding: 0.3rem;
+    color: aliceblue;
+    background-color: rgb(33, 18, 36);
+}
+
+.container h3 {
+    margin: 2rem;
+    color: aliceblue;
+    text-transform: capitalize;
+}
+
+.container p {
+    color: aliceblue;
+    font-size: 2rem;
+}
